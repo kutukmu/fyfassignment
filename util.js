@@ -45,6 +45,7 @@ const fyfFunc = (points, names,left, i, comb, add) =>{
 
 
 const totalSum = (obj) =>{
+    arr = []
     let points = [25,10,5,1]
     let names = {25: "quarter(s)", 10: "dime(s)", 5 : "nickel(s)", 1 : "pennies"}
     var cents = 100;
